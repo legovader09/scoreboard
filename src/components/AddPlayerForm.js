@@ -22,6 +22,7 @@ class AddPlayerForm extends Component {
           type="text"
           ref={this.playerInput}
           placeholder="Enter a player's name"
+          required
         />
         
         <input 
